@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import styles from "../../styles/Home.module.css";
 import ImageCarousel from "../ImageCarousel/ImageCarousel";
+import Header from "../Header/Header";
 
 export default function Home() {
   const [slides, setSlides] = useState([
@@ -34,6 +35,10 @@ export default function Home() {
         <p className={styles.description}>
           Welcome to <code className={styles.code}>Fraktured Records</code>
         </p>
+
+        <div>
+          <Header />
+        </div>
 
         <div className={styles.banner}>
           <ImageCarousel slides={slides} />
