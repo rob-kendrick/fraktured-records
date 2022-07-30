@@ -7,6 +7,7 @@ import Header from "../Header/Header";
 import ScrollTracker from "../Scroll/Scroll";
 import LandingPage from "../LandingPage/LandingPage";
 import ImageParallax from "../ImageParallax/ImageParallax";
+import About from "../About/About";
 
 export default function Home() {
   const [slides, setSlides] = useState([
@@ -40,6 +41,7 @@ export default function Home() {
             url={"http://localhost:3000/assets/promo/heartbreak.png"}
           />
         </div>
+        <About />
       </main>
 
       <footer className={styles.footer}>

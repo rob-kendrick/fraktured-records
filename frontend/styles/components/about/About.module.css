@@ -1,0 +1,13 @@
+.container {
+  margin-top: 30rem;
+  border: 1px solid green;
+}
+
+.heading {
+  border: 1px solid red;
+  font-size: 3rem;
+}
+
+.text_body {
+  border: 1px solid yellow;
+}

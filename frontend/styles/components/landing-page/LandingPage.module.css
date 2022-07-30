@@ -45,7 +45,8 @@
   font-size: 9rem;
   text-decoration: underline;
   font-style: italic;
-  color: #ff4365;
+  /* color: #ff4365; */
+  color: white;
   text-align: center;
 }
 
@@ -64,11 +65,12 @@
   font-size: 2rem;
   padding: 0 0 0 0;
   /* border: 1px solid yellow; */
-  color: #fffc99;
+  /* color: #fffc99; */
+  color: rgb(255, 85, 0);
 }
 
 .code {
-  background: #fffc99;
+  background: rgb(255, 85, 0);
   /* border: 1px solid red; */
   margin-top: 0.5rem;
   color: #070612;
@@ -88,10 +90,7 @@
 }
 
 .line {
-  /* position: relative;
-  bottom: 8rem; */
-  /* width: 5rem;
-  border: 2px solid green; */
+  /* border: 2px solid green; */
   margin: 0 auto;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   font-size: 100%;
@@ -101,7 +100,7 @@
   transform: translateY(-50%);
   font-size: 1.4rem;
   font-style: italic;
-  color: #fffc99;
+  color: rgb(255, 85, 0);
 }
 
 /* Animations */
