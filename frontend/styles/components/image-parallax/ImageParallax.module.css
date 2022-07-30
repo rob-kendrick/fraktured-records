@@ -1,0 +1,7 @@
+.parallax {
+  min-width: 100vw;
+  min-height: 50vh;
+  /* border: 1px solid red; */
+  margin-top: 5rem;
+  /* margin: 0 auto; */
+}

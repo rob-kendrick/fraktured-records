@@ -1,51 +1,76 @@
+@media only screen and (max-width: 650px) {
+  .title {
+    /* max-width: 100vw; */
+
+    font-size: 3.5rem !important;
+  }
+
+  .title > h1 {
+    max-width: 100vw;
+  }
+
+  .welcome {
+    font-size: 1.5rem !important;
+  }
+
+  .code {
+    font-size: 1rem !important;
+  }
+}
+
 .landingpage__container {
   /* border: 2px solid red; */
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   margin: 0 0 0 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   background-color: #070612;
 }
 
 .text__container {
-  /* border: 1px solid yellow; */
-  width: 500px;
-  display: flex;
+  border: 1px solid yellow;
+  width: 100vw;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center; */
 }
 
 .title {
-  margin-top: 15rem;
-  font-size: 16rem;
+  /* border: 1px solid yellow; */
+  margin: 2rem;
+  font-size: 9rem;
+  text-decoration: underline;
   font-style: italic;
-  color: #ff4365;
-  stroke: seashell;
-  stroke-width: 10ch;
-  stroke-opacity: 1;
+  /* color: #ff4365; */
+  color: white;
+  text-align: center;
 }
 
 .description {
   /* border: 1px solid red; */
-
+  max-width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  bottom: 200px;
+  bottom: 100px;
 }
 
 .welcome {
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 0 0 0 0;
   /* border: 1px solid yellow; */
-  color: #fffc99;
+  /* color: #fffc99; */
+  color: rgb(255, 85, 0);
 }
 
 .code {
-  background: #fffc99;
+  background: rgb(255, 85, 0);
   /* border: 1px solid red; */
   margin-top: 0.5rem;
   color: #070612;
@@ -65,9 +90,7 @@
 }
 
 .line {
-  position: relative;
-  bottom: 8rem;
-  /* width: 5rem; */
+  /* border: 2px solid green; */
   margin: 0 auto;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   font-size: 100%;
@@ -77,13 +100,13 @@
   transform: translateY(-50%);
   font-size: 1.4rem;
   font-style: italic;
-  color: #fffc99;
+  color: rgb(255, 85, 0);
 }
 
 /* Animations */
 
 .anim_typewriter {
-  animation: typewriter 4s steps(30) 1s normal both,
+  animation: typewriter 2s steps(30) 0.5s normal both,
     blinkTextCursor 1000ms steps(30) infinite normal;
 }
 
